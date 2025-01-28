@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: "Poppins",sans-serif;
+        }
+        .container{
+            background: #000;
+            height: 100vh;
+        }
+        .leftnav{
+            font-weight: 500;
+            font-size: large;
+        }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 60px;
+    background: #000;
+    color: #fff;
+}
+.rightnav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.rightnav ul li a{
+    color: #fff;
+    font-weight: 500;
+
+}
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+#bg-img{
+    width: 100%;
+  height: auto;
+  max-height: 90vh;
+}
+.nav {
+    position: absolute;
+    top: 200px;
+    left: 420px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+
+    color: white;
+    z-index: 3; 
+    margin: 0;
+    padding: 0;
+}
+.first {
+    text-decoration:underline;
+    background-image: linear-gradient(rgba(255, 28, 247, 1), rgba(0, 240, 255, 1));
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+}
+.second{
+    margin : 0 220px ;
+    font-size: 48px;
+}
+.third{
+    margin: 0 130px;
+}
+.fifth{
+    margin: 0 50px;
+}
+.sixth{
+    margin: 0 120px;
+}
+.seventh{
+    position: relative;
+    left: 600px;
+    bottom: 260px;
+}
+.get{
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 50px;
+    /* background-color: transparent; */
+    background: linear-gradient(rgba(255, 28, 247, 1), rgba(0, 240, 255, 1));
+    margin: 0 20px;
+}
+.eco{
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    color:white;
+    border: 2px solid ;
+    border-color: ;
+    border-radius: 50px;
+    background: linear-gradient(rgba(255, 28, 247, 1), rgba(0, 240, 255, 1));
+   
+    
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="leftnav">Bureaucratic.AI</div>
+            <div class="rightnav">
+                    <ul>
+                        <li><a href="voice.html">Voice Direction</a></li>
+                        <li><a href="#">Task Manager</a></li>
+                        <li><a href="#">Translator</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                    <div class="iconnav">
+                        <ul>
+                            <li><a href="#"></a><i class="fa-brands fa-github"></i></li>
+                            <li><a href="#"></a><i class="fa-brands fa-discord"></i></li>
+                            <li><a href="#"></a><i class="fa-brands fa-square-reddit"></i></li>
+                        <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="bg.png" id="bg-img">
+        
+    </div>
+    <div class="nav">
+        <h1 class="first">Revolutionize Your Workflow</h1>
+        <h1 class="second">AI-Powered</h1>
+        <div class="third"><p class="fourth">Streaming daily task for senior bureaucrats with cutting-edge</p>
+            <p class="fifth">AI technologies.It simplifies,automatically and </p>
+            <p class="sixth"> transform the way you are.</p>
+        </div>
+    </div>
+    <div class="seventh">
+        <button class="get" type="submit">Get started</button>
+        <button class="eco" type="button">Ecosystem</button>
+    </div>
+    
+</body>
+</html>

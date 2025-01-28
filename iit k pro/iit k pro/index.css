@@ -1,0 +1,76 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    z-index: 3; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Container */
+#background-container {
+    background-image: url('img.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Centered Content */
+#content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+}
+
+.first, .second {
+    margin: 10px 0;
+    font-size: 3rem;
+}
+
+.first {
+    background-image: linear-gradient(rgba(255, 28, 247, 1), rgba(0, 240, 255, 1));
+    background-clip: text;
+    color: transparent;
+}
+
+.second {
+    font-size: 3rem;
+}
+
+#statement {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.start {
+    background: linear-gradient(rgba(73, 124, 255, 1),rgba(0, 22, 100, 1)); 
+    padding: 10px 30px;
+    font-size: 1.2rem;
+     
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+.lost{
+    color: rgba(255, 255, 255, 0.723);
+    text-decoration: none;
+}
